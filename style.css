@@ -51,3 +51,29 @@ body {
     border: none;
 }
 
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: brown;
+    color:white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color:yellow;
+    font-size:5vmin;
+}
+
+.msg-container{
+    height:100vmin;
+    display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   gap:4rem;
+}
+
+.hide {
+   display: none; 
+}
